@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: linear-gradient(120deg, #f6d365, #fda085);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+header{
+  font-size: 1.5rem;
+  padding: 5vh 0vh;
+}
+.formContainer{
+  padding: 0vh 0vh 5vh 0vh;
+}
+header,.formContainer {
+  display: flex;
+  justify-content: center;
+}
+.formContainer input, .formContainer button{
+  padding: 0.5rem;
+  font-size: 2rem;
+  background: cornsilk;
+  border-radius: 2vh;
+  margin-right: 10px;
+}
+.formContainer button{
+  color: #f2a77f;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.formContainer button:hover{
+  color: white;
+  background: #d88771;
+}
+.todos-section{
+  margin: 0vh 10vh;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
+
+.todo-container, .progress-container, .done-container{
+  width: 100%;
+  border: 1mm ridge rgb(243 169 125 / 14%);
+}
+
+.label{
+  display: list-item;
+  list-style: none;
+  text-align: center;
+}
+.todo-list, .progress-list, .done-list{
+  min-width: 30%;
+  list-style: none;
+  padding: 0px 20px;
+  height: 60vh;
+}
+.todo{
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  font-size: 1.5rem;
+  margin: 1rem 0rem;
+}
+.delete-btn{
+  padding: 0.5rem;
+  color: white;
+  background: rgb(207, 20, 67);
+  cursor: pointer;
+  font-size: 1rem;
+}
+.todo-item{
+  padding: 0rem 0.5rem;
+}
